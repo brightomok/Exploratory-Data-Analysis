@@ -6,7 +6,7 @@ July 6, 2016
 Exploratory Data Analysis Quiz 1
 --------------------------------
 
-This is Quiz 1 from the Exploratory Data Analysis course within the Data Science Specialization on Coursera. Topics include sorting, matching, and aggregating data.
+This is Quiz 1 from the Exploratory Data Analysis course
 
 ### Questions
 
