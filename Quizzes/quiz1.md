@@ -1,0 +1,133 @@
+Ryan Tillis - Exploratory Data Analysis- Data Science - Quiz 1 - Coursera
+================
+<a href="http://www.ryantillis.com"> Ryan Tillis </a>
+July 6, 2016
+
+Exploratory Data Analysis Quiz 1
+--------------------------------
+
+This is Quiz 1 from the Exploratory Data Analysis course within the Data Science Specialization on Coursera. Topics include sorting, matching, and aggregating data.
+
+### Questions
+
+<hr>
+<font size="+2">1. </font> Which of the following is a principle of analytic graphics?
+
+<hr>
+<font size="+1"> <b>
+
+-   Show causality, mechanism, explanation
+
+</b> </font>
+
+<hr>
+<hr>
+<font size="+2">2. </font> What is the role of exploratory graphs in data analysis?
+
+<hr>
+<font size="+1"> <b>
+
+-   They are typically made very quickly.
+
+</b> </font>
+
+<hr>
+``` r
+library(jpeg)
+
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fjeff.jpg", destfile = "quiz2jpeg.jpg")
+jpgdat = readJPEG("quiz2jpeg.jpg", native = TRUE)
+quantile(jpgdat, probs = c(0.3, 0.8))
+```
+
+    ##       30%       80% 
+    ## -15259150 -10575416
+
+<hr>
+<font size="+2">3. </font> Which of the following is true about the base plotting system?
+
+<hr>
+<font size="+1"> <b>
+
+-   Plots are created and annotated with separate functions
+
+</b> </font>
+
+<hr>
+<hr>
+<font size="+2">4. </font> Which of the following is an example of a valid graphics device in R?
+
+<hr>
+<font size="+1"> <b>
+
+-   A PDF file
+
+</b> </font>
+
+<hr>
+<hr>
+<font size="+2">5. </font> Which of the following is an example of a vector graphics device in R?
+
+<hr>
+<font size="+1"> <b>
+
+-   SVG
+
+</b> </font>
+
+<hr>
+<hr>
+<font size="+2">6. </font> Bitmapped file formats can be most useful for
+
+<hr>
+<font size="+1"> <b>
+
+-   Scatterplots with many many points
+
+</b> </font>
+
+<hr>
+<hr>
+<font size="+2">7. </font> Which of the following functions is typically used to add elements to a plot in the base graphics system?
+
+<hr>
+<font size="+1"> <b>
+
+-   text()
+
+</b> </font>
+
+<hr>
+<font size="+2">8. </font> Which function opens the screen graphics device for the Mac?
+
+<hr>
+<font size="+1"> <b>
+
+-   quartz()
+
+</b> </font>
+
+<hr>
+<font size="+2">9. </font> What does the 'pch' option to par() control?
+
+<hr>
+<font size="+1"> <b>
+
+-   the plotting symbol/character in the base graphics system
+
+</b> </font>
+
+<hr>
+<font size="+2">10. </font> If I want to save a plot to a PDF file, which of the following is a correct way of doing that?
+
+<hr>
+<font size="+1"> <b>
+
+-   Construct the plot on the screen device and then copy it to a PDF file with dev.copy2pdf()
+
+</b> </font>
+
+<hr>
+See more at: <http://www.ryantillis.com/>
+
+<hr>
